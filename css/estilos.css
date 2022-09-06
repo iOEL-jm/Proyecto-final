@@ -1,11 +1,11 @@
 /* index */
 
-.animation--index {
-    animation-name: fade-in--index;
+.animation {
+    animation-name: fade-in;
     animation-duration: 1s;
 }
 
-@keyframes fade-in--index {
+@keyframes fade-in {
     0% {
         transform: translateX(-200px);
         opacity: 0;
@@ -18,27 +18,6 @@
 }
 
 /* servicios */
-
-.animation--servicios {
-    animation-name: fade-in--servicios;
-    animation-duration: 1s;
-}
-
-@keyframes fade-in--servicios {
-    0% {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
-    
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-.color-fondo--servicios {
-    background-color: #16537e;
-}
 
 .colocacion--servicios {
     display: grid;
@@ -62,63 +41,13 @@
     background-color: cadetblue;
 }
 
-.box-modeling-nesesario--servicios {
-    padding: 15px 0px 0px 0px; 
-}
-
 /* portfolio */
-
-.animation--portfolio {
-    animation-name: fade-in--portfolio;
-    animation-duration: 1s;
-}
-
-@keyframes fade-in--portfolio {
-    0% {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
-    
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-.color-fondo--portfolio {
-    background-color: #16537e;
-}
 
 .tamaño-imagenes--portfolio {
     width: 250px;
 }
 
-.box-modeling-necesario--portfolio {
-   padding: 15px 0px 0px 0px; 
-} 
-
 /* sobre mi */
-
-.animation--sobre-mi {
-    animation-name: fade-in--sobre-mi;
-    animation-duration: 1s;
-}
-
-@keyframes fade-in--sobre-mi {
-    0% {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-.color-fondo--sobre-mi {
-    background-color: #16537e;
-}
 
 .tamaño-texto--sobre-mi {
     font-size: 31px;
@@ -129,35 +58,10 @@
     padding-left: 5px;
 }
 
-.box-modeling-necesario--sobre-mi {
-    padding: 15px 0px 0px 0px;
-}
-
 /* contacto */
 
-.animation--contacto {
-    animation-name: fade-in--contacto;
-    animation-duration: 1s;
-}
-
-@keyframes fade-in--contacto {
-    0% {
-        transform: translateX(-200px);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0px);
-        opacity: 1;
-    }
-}
-
-.color-fondo--contacto {
-    background-color: #16537e;
-}
-
-.box-modeling-necesario--contacto {
-    padding: 15px 0px 0px 0px;
+.texto-gris {
+    color: gray;
 }
 
 /* Para las 5 paginas */
@@ -178,16 +82,18 @@
     color: white;
 }
 
-.texto-negro {
-    color: black;
-}    
-
 .box-modeling-necesario  {
     padding: 15px 0px 0px 0px;
 }
 
 /* para algunas paginas */
 
-.separacion-v2 {
+.separacion-2 {
     padding-top: 16px;
 }
+
+/* para casi todas las paginas */
+
+.texto-negro {
+    color: black;
+}    
